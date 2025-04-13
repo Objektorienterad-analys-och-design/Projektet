@@ -32,6 +32,7 @@ public class MainController {
                 case "4" -> getPostsByWord();
                 case "0" -> {
                     System.out.println("hej då!");
+                    scanner.close();
                     return;
                 }
             }
